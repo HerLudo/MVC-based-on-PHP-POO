@@ -1,9 +1,9 @@
 <?xml version="1.0" ?>
 <config>
-    <host>localhost</host>
-    <user>root</user>
-    <password></password>
-    <db>hospitale2n</db>
-    <table1>patients</table1>
-    <table2>appointments</table2>
+    <host>URL</host>
+    <user>username</user>
+    <password>userpassword</password>
+    <db>dbname</db>
+    <table1>table1name</table1>
+    <table2>table2name</table2>
 </config>
