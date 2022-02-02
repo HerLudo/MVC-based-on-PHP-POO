@@ -1,0 +1,109 @@
+body {
+    min-height: 100vh !important;
+    max-height: 100vh !important;
+    overflow-y: scroll;
+}
+
+main {
+    min-height : 83vh !important;
+}
+.container{
+    width: 100% !important;
+    padding: 0 !important;
+}
+footer {
+    min-height : 7vh !important;
+}
+
+.table{
+    /* font-size : 1vw !important;  */
+    font-size : 1rem !important; 
+}
+.tableicons {
+    font-size: 1.2vw !important;
+}
+
+.boutoncercle {
+    height: 12vw !important;
+    width: 12vw !important;
+    border-radius: 50% !important;
+    font-size : 1.8vw !important;
+}
+
+footer{
+    padding:0.5vw 0!important;
+    margin-top:1vh;
+}
+
+/* MEDIA QUERIES */
+   @media screen and (max-width:900px)
+   {
+       table thead tr th {
+            overflow-wrap: break-word !important;
+            width:14vw !important;
+            font-size : 1.9vw !important;
+            vertical-align: middle !important;
+       }
+       table tbody tr td {
+            overflow-wrap: anywhere !important;
+            width:14vw !important;
+            font-size : 1.9vw !important;
+            vertical-align: middle !important;
+       }
+       .tableicons {
+        font-size: 1.9vw !important;
+        display: block !important;
+        margin : 0.5vw !important;
+        }
+        table tbody tr td .icons {
+            display: flex !important;
+            flex-direction: column ! important;
+            justify-content: space-between !important;
+            vertical-align: middle !important;
+
+        }
+        .boutoncercle {
+            height: 20vw !important;
+            width: 20vw !important;
+            border-radius: 50% !important;
+            font-size : 2.5vw !important;
+        }
+   }
+
+   @media screen and (max-width:665px)
+   {
+        table thead tr th {
+            overflow-wrap: break-word !important;
+            width:14vw !important;
+            font-size : 0.8rem !important;
+            vertical-align: middle !important;
+        }       
+        table tbody tr td {
+            overflow-wrap: anywhere !important;
+            width:14vw !important;
+            font-size : 0.8rem !important;
+            vertical-align: middle !important;
+        }
+        .tableicons {
+            font-size: 0.8rem !important;
+            display: block !important;
+            margin : 0.5vw !important;
+        }
+        table tbody tr td .icons {
+            display: flex !important;
+            flex-direction: column ! important;
+            justify-content: space-between !important;
+            vertical-align: middle !important;
+
+        }
+    }
+
+    @media screen and (max-width:460px)
+    {
+        .boutoncercle {
+            height: 100px !important;
+            width: 100px !important;
+            border-radius: 50% !important;
+            font-size : 0.9rem !important;
+        }
+    }
